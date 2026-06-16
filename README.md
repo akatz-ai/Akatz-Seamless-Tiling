@@ -11,6 +11,7 @@ utilities.
 - `AK_OffsetImage`
 - `AK_FileNamePrefixDateDirFirst`
 - `AK_MakeDepthmapSeamless`
+- `AK_MakeDepthmapSeamlessAdvanced`
 - `AK_AnimatedDilationMaskLinear`
 - `AnySwitch | Akatz`
 - `AkatzSetNode` / `AkatzGetNode` frontend virtual nodes
