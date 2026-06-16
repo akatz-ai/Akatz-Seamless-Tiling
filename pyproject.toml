@@ -1,0 +1,20 @@
+[project]
+name = "akatz-seamless-tiling"
+version = "0.1.0"
+description = "ComfyUI nodes for seamless tiling and Akatz workflow utilities."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+    "numpy",
+    "opencv-python-headless",
+]
+
+[project.urls]
+Repository = "https://github.com/akatz-ai/Akatz-Seamless-Tiling"
+
+[tool.comfy]
+PublisherId = "akatz-ai"
+DisplayName = "Akatz Seamless Tiling"
+Icon = ""
+
