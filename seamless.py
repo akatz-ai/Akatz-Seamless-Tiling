@@ -210,6 +210,11 @@ def _replacement_conv2d_forward(
 
 
 SEAMLESS_NODE_CLASS_MAPPINGS = {
+    "AK_SeamlessTile": SeamlessTile,
+    "AK_CircularVAEDecode": CircularVAEDecode,
+    "AK_MakeCircularVAE": MakeCircularVAE,
+    "AK_OffsetImage": OffsetImage,
+    # Compatibility aliases for workflows authored against ComfyUI-seamless-tiling.
     "SeamlessTile": SeamlessTile,
     "CircularVAEDecode": CircularVAEDecode,
     "MakeCircularVAE": MakeCircularVAE,
@@ -217,9 +222,12 @@ SEAMLESS_NODE_CLASS_MAPPINGS = {
 }
 
 SEAMLESS_NODE_DISPLAY_NAME_MAPPINGS = {
-    "SeamlessTile": "Seamless Tile",
-    "CircularVAEDecode": "Circular VAE Decode (tile)",
-    "MakeCircularVAE": "Make Circular VAE",
-    "OffsetImage": "Offset Image",
+    "AK_SeamlessTile": "Akatz Seamless Tile",
+    "AK_CircularVAEDecode": "Akatz Circular VAE Decode",
+    "AK_MakeCircularVAE": "Akatz Make Circular VAE",
+    "AK_OffsetImage": "Akatz Offset Image",
+    "SeamlessTile": "Akatz Seamless Tile (compat)",
+    "CircularVAEDecode": "Akatz Circular VAE Decode (compat)",
+    "MakeCircularVAE": "Akatz Make Circular VAE (compat)",
+    "OffsetImage": "Akatz Offset Image (compat)",
 }
-
