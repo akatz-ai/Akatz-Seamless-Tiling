@@ -1,4 +1,4 @@
-NODE_NAME = "Akatz"
+NODE_NAME = "Akatz Seamless Tiling"
 NODE_POSTFIX = "| Akatz"
 
 
@@ -20,4 +20,3 @@ class LogicNode(BaseNode):
 
 class MaskNode(BaseNode):
     CATEGORY = f"{NODE_NAME}/Mask"
-

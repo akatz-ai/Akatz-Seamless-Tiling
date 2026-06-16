@@ -3,6 +3,7 @@ const { app } = window.comfyAPI.app;
 const SET_NODE_TYPE = "AkatzSetNode";
 const GET_NODE_TYPE = "AkatzGetNode";
 const AUX_ID = "akatz-ai/Akatz-Seamless-Tiling";
+const NODE_CATEGORY = "Akatz Seamless Tiling";
 const LGraphNode = LiteGraph.LGraphNode;
 
 function getLink(graph, linkId) {
@@ -89,7 +90,7 @@ app.registerExtension({
 	registerCustomNodes() {
 		class AkatzSetNode extends LGraphNode {
 			static title = "Set";
-			static category = "Akatz";
+			static category = NODE_CATEGORY;
 
 			constructor(title) {
 				super(title);
@@ -132,7 +133,7 @@ app.registerExtension({
 
 		class AkatzGetNode extends LGraphNode {
 			static title = "Get";
-			static category = "Akatz";
+			static category = NODE_CATEGORY;
 
 			constructor(title) {
 				super(title);
@@ -163,8 +164,7 @@ app.registerExtension({
 
 		LiteGraph.registerNodeType(SET_NODE_TYPE, AkatzSetNode);
 		LiteGraph.registerNodeType(GET_NODE_TYPE, AkatzGetNode);
-		AkatzSetNode.category = "Akatz";
-		AkatzGetNode.category = "Akatz";
+		AkatzSetNode.category = NODE_CATEGORY;
+		AkatzGetNode.category = NODE_CATEGORY;
 	},
 });
-
