@@ -20,3 +20,7 @@ class LogicNode(BaseNode):
 
 class MaskNode(BaseNode):
     CATEGORY = f"{NODE_NAME}/Mask"
+
+
+class UtilityNode(BaseNode):
+    CATEGORY = f"{NODE_NAME}/Utility"

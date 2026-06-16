@@ -5,10 +5,11 @@ utilities.
 
 ## Nodes
 
-- `SeamlessTile`
-- `CircularVAEDecode`
-- `MakeCircularVAE`
-- `OffsetImage`
+- `AK_SeamlessTile`
+- `AK_CircularVAEDecode`
+- `AK_MakeCircularVAE`
+- `AK_OffsetImage`
+- `AK_FileNamePrefixDateDirFirst`
 - `AK_MakeDepthmapSeamless`
 - `AK_AnimatedDilationMaskLinear`
 - `AnySwitch | Akatz`
@@ -30,4 +31,3 @@ This pack consolidates and adapts behavior from:
 - `deforum-comfy-nodes` by deforum-art, MIT, for the Any Switch and frontend
   virtual Set/Get node patterns.
 - `ComfyUI-AKatz-Nodes` by akatz, MIT, for the Akatz utility nodes.
-
