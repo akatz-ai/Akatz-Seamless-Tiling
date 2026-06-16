@@ -86,7 +86,7 @@ function markCanvasDirty() {
 }
 
 app.registerExtension({
-	name: "Akatz.SeamlessTiling.SetGet",
+	name: "Akatz Seamless Tiling.SetGet",
 	registerCustomNodes() {
 		class AkatzSetNode extends LGraphNode {
 			static title = "Set";
